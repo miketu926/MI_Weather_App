@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather Demo</title>
+
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <div class='main'>
+
+    <div id='location'></div>
+
+    <div class='days'>
+      <div class='day-box' id='day-name'>Today:</div>
+      <div class='day-box' id='day2-name'></div>
+      <div class='day-box' id='day3-name'></div>
+    </div>
+
+    <div class='cast-main'>
+      <div class='cast-box'>
+        <img src="https://developer.accuweather.com/sites/default/files/07-s.png" alt="Cloudy" width="75" height="45">
+        <div class='stats'>
+          <div class='status' id='day1-status'></div>
+          <div class='temps' id='day1-temps'></div>
+        </div>
+      </div>
+
+      <div class='cast-box'>
+        <img src="https://developer.accuweather.com/sites/default/files/01-s.png" alt="Cloudy" width="75" height="45">
+        <div class='stats'>
+          <div class='status' id='day2-status'></div>
+          <div class='temps' id='day2-temps'></div>
+        </div>
+      </div>
+
+      <div class='cast-box'>
+        <img src="https://developer.accuweather.com/sites/default/files/18-s.png" alt="Cloudy" width="75" height="45">
+        <div class='stats'>
+          <div class='status' id='day3-status'></div>
+          <div class='temps' id='day3-temps'></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+<script src='./script.js'></script>
